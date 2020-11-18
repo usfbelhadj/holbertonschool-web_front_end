@@ -1,7 +1,8 @@
 /*nested declarations*/
 body {
     margin: 0px;
-    padding: 0px; }
+    padding: 0px; 
     p {
       $p_margin: 10px;
       margin: $p_margin }
+    }
