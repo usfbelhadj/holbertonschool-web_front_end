@@ -60,14 +60,14 @@ h6{
     color: var(--color-primary);
 }
 
+.section-header.section-tagline{
+    align-items: var(--section-header-align);
+    justify-content: var(--section-header-align);
+}
+
 .section-tagline{
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-}
-
-.section-header.section-tagline{
-    align-items: var(--section-header-align);
-    justify-content: var(--section-header-align);
 }
