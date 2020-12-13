@@ -86,7 +86,7 @@ a:visited{
 }
 
 a:hover{
-    border-bottom: 1px solid
+    text-decoration: underline;
 }
 
 a:active{
