@@ -3,9 +3,6 @@ html {
     font-size: 62.5%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 :root{
 --color-primary: #d73953;
 --color-black: #090909;
@@ -15,7 +12,7 @@ html {
 --text-color: var(--color-black);
 --font-family-base: "Open Sans", "Helvetica Neue", "Helvetica",  "Arial", "sans-serif";
 --font-family-title: "Raleway", "Helvetica Neue", "Helvetica",  "Arial", "sans-serif";
---font-size-small: 1.2rem;
+--font-size-small: 1.2rem; 
 --font-size-medium: 1.6rem;
 --font-size-large: 1.8rem;
 --font-size-x-large: 2.3rem;
