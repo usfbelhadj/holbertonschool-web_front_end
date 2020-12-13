@@ -85,10 +85,10 @@ a:visited{
     font-style: italic;
 }
 
-a:link:hover{
+a:hover{
     border-bottom: 1px solid
 }
 
-a:link:active{
+a:active{
     background-color: var(--color-light-grey);
 }
