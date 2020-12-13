@@ -7,9 +7,6 @@ html {
     font-size: 62.5%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
 :root{
 --color-primary: #d73953;
 --color-black: #090909;
@@ -17,8 +14,8 @@ html {
 --color-light-grey: #f3f3f3;
 --color-dark-grey: #353535;
 --text-color: color-black;
---font-family-base: "Helvetica Neue", "Helvetica",  "Arial", "sans-serif", "open sans";
---font-family-title: "Raleway", var(--font-family-base);
+--font-family-base: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'; 
+--font-family-title: 'Raleway', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
 --font-size-small: 1.2rem;
 --font-size-medium: 1.6rem;
 --font-size-large: 1.8rem;
@@ -39,6 +36,13 @@ html {
 --section-footer-padding: 3rem 0 0;
 --section-footer-align: center;
 --footer-padding: 5rem 0 1rem;
+--nav-item-font-family: var(--font-family-title);
+--nav-item-font-weight: var(--font-weight-bold);
+--nav-item-font-size: var(--font-size-medium);
+--nav-item-letter-spacing: 4%;
+--nav-item-display: inline-block;
+--nav-item-margin: 0 0 3rem 0;
+--nav-item-link-hover: var(--color-primary);
 
 }
 
@@ -48,11 +52,6 @@ body{
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
-}
-
-a{
-    color: var(--text-color);
-    text-decoration: none;
 }
 
 h1,
@@ -76,7 +75,8 @@ h6{
     padding: var(--section-padding);
 }
 
-.section-header{
+.section-header {
+    text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
 
@@ -104,10 +104,6 @@ h6{
     color: var(--section-title-color);
 }
 
-.section-header {
-    text-align: var(--section-header-align);
-}
-
 .container{
     width: 960px;
     margin-left: auto;
@@ -130,6 +126,37 @@ a:link:hover{
 a:link:active{
     background-color: var(--color-light-grey);
 }
+
+.navbar-menu{
+    float: right;
+}
+
+.navbar-menu .nav{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-align: center;
+}
+
+.nav .nav-item{
+    font-family: var(--nav-item-font-family);
+    font-weight: var(--nav-item-font-weight);
+    font-size: var(--nav-item-font-size);
+    letter-spacing: var(--nav-item-letter-spacing);
+    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+}
+
+.nav .nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+
+}
+
+.nav .nav-link:hover{
+    color: var(--nav-item-link-hover);
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html{
     line-height:1.15;-webkit-text-size-adjust:100%

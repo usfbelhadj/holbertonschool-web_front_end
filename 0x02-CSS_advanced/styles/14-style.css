@@ -40,11 +40,6 @@ body{
     line-height: var(--line-height-base);
 }
 
-a{
-    color: var(--text-color);
-    text-decoration: none;
-}
-
 h1,
 h2,
 h3,
@@ -62,12 +57,14 @@ h6{
     color: var(--color-primary);
 }
 
-.section-header.section-tagline{
-    align-items: var(--section-header-align);
-    justify-content: var(--section-header-align);
+.section-tagline {
+    color: var(--color-primary);
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
 
-.section-title{
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
@@ -75,14 +72,15 @@ h6{
     color: var(--section-title-color);
 }
 
-.section-tagline{
-    color: var(--color-primary);
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
+.section-header {
+    text-align: var(--section-header-align);
 }
 
 a:link{
+    color: var(--text-color);
+    text-decoration: none;
+}
+a:visited{
     font-style: italic;
 }
 
