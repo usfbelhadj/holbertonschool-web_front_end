@@ -192,10 +192,10 @@ ul.row{
     text-align: right;
 }
 
-.row:after{
+.row::after{
     content: '';
     display: table;
-    float: none;
+    clear: both;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
