@@ -193,9 +193,9 @@ ul.row{
 }
 
 .row::after{
-    content: '';
-    display: table-row;
-    float: unset;
+    content: none;
+    display: table;
+    float: none;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
