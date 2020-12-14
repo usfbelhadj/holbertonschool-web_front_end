@@ -194,7 +194,7 @@ ul.row{
 
 .row::after{
     content: '';
-    display: table;
+    display: table-row;
     float: unset;
 }
 
