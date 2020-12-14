@@ -143,7 +143,7 @@ a:active{
     background-color: var(--color-light-grey);
 }
 
-.button {
+.button{
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
@@ -152,11 +152,12 @@ a:active{
     text-decoration: var(--button-text-decoration);
 }
 
-.button:hover {
+.button:hover{
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
 }
+
 .navbar-menu{
     float: right;
 }
@@ -226,7 +227,7 @@ ul.row{
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
-    --button-color: var(--color-white);
+    --button-color: var(--color-white); 
 }
 
 .footer-address{
