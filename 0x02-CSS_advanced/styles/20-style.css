@@ -192,7 +192,8 @@ ul.row{
     text-align: right;
 }
 
-.row{
+.row::after{
+    content: '';
     display: table;
     float: none;
 }
