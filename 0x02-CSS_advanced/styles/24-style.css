@@ -217,12 +217,12 @@ ul.row{
     fill: var(--text-color);
 }
 
-.card-services .card-title{
+.card-services > .card-title{
     margin: 0;
 }
 
 .card-services a{
-    display: inline-block;
+    display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
