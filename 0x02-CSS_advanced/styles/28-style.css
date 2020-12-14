@@ -79,7 +79,7 @@ body{
     position: var(--header-logo-position);
 }
 
-.header-logo img{
+.header-logo a{
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     vertical-align: var(--header-logo-link-top);
