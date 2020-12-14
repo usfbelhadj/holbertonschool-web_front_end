@@ -49,7 +49,7 @@ html {
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
     --button-color: var(--color-black);
-    --button-text-decoration: none;
+    --button-text-decoration: 0;
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
