@@ -222,7 +222,7 @@ ul.row{
 }
 
 .card-services a{
-    display: block;
+    display: inline-block;
     padding: 2rem;
     background-color: var(--color-light-grey);
 }
