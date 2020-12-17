@@ -1,8 +1,6 @@
 /*Columns and operators*/
-$width:100%;
 @for $var from 1 to 5 {
     .col-#{$var}{
-        width: $width/$var;
+        width: 100%/$var;
     }
-    
 }
