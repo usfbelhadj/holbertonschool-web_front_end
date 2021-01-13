@@ -16,4 +16,4 @@ Tink - Léonie Watson – On technology, food & life in the digital age\
 Articles » Simply Accessible\
 Accessibility Weekly\
 European label (Web Accessibility): Euracert - Home page\
-Section508.gov | GSA Government-wide IT Accessibility Program\
+Section508.gov | GSA Government-wide IT Accessibility Program
