@@ -20,41 +20,41 @@
 <body>
     <div class="container-lg p-5">
         <div class="row">
-            <div class="col-sm mr-3 mt-4 p-0">
+            <div class="col-md mr-3 mt-4 p-0">
                 <div class="card">
                     <div class="card-header">Coding</div>
-                    <img src="https://via.placeholder.com/450x200" class="img-fluid" />
+                    <img src="https://via.placeholder.com/450x200" class="card-img-top" />
                     <div class="card-body">
                         <h5 class="card-title">HTML</h5>
                         <p class="card-text">Hypertext Markup Language (HTML) is the standard markup language for
                             documents designed to be displayed in a web browser.</p>
-                        <button class="btn-danger" data-toggle="modal" data-target="#playModal">Play with</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#playModal">Play with</button>
                     </div>
                     <div class="card-footer">40h</div>
                 </div>
             </div>
-            <div class="col-sm mr-3 mt-4 p-0">
+            <div class="col-md mr-3 mt-4 p-0">
                 <div class="card">
                     <div class="card-header">Coding</div>
-                    <img src="https://via.placeholder.com/450x200" class="img-fluid" />
+                    <img src="https://via.placeholder.com/450x200" class="card-img-top" />
                     <div class="card-body">
                         <h5 class="card-title">CSS</h5>
-                        <p class="card-text">Cascading Style Sheets (CSS) is a style sheet language used for describing
-                            the presentation of a document written in a markup language like HTML.</p>
-                        <button class="btn-danger" data-toggle="modal" data-target="#playModal">Play with</button>
+                        <p class="card-text ">Cascading Style Sheets (CSS) is a style sheet language used
+                            for describing the presentation of a document written in a markup language like HTML.</p>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#playModal">Play with</button>
                     </div>
                     <div class="card-footer">35h</div>
                 </div>
             </div>
-            <div class="col-sm mt-4 p-0">
+            <div class="col-md mr-3 mt-4 p-0">
                 <div class="card">
                     <div class="card-header">Coding</div>
-                    <img src="https://via.placeholder.com/450x200" class="img-fluid" />
+                    <img src="https://via.placeholder.com/450x200" class="card-img-top" />
                     <div class="card-body">
                         <h5 class="card-title">Javascript</h5>
                         <p class="card-text">JavaScript, often abbreviated as JS, is a programming language that
                             conforms to the ECMAScript specification.</p>
-                        <button class="btn-danger" data-toggle="modal" data-target="#playModal">Play with</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target="#playModal">Play with</button>
                     </div>
                     <div class="card-footer">70h</div>
                 </div>
@@ -63,16 +63,16 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal m-auto" id="playModal" tabindex="-1" role="dialog" aria-labelledby="playModal" aria-hidden="true">
-        <div class="modal-dialog bg-white container-fluid" role="document">
-            <div>
-                <div class="row d-flex justify-content-between p-3 border-bottom">
-                    <h5 id="exampleModalLabel">Play with CodePen</h5>
-                    <button type="button" data-dismiss="modal" aria-label="Close">
+    <div class="modal fade" id="playModal" tabindex="-1" role="dialog" aria-labelledby="playModal" aria-hidden="true">
+        <div class="modal-dialog bg-white" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Play with CodePen</h5>
+                    <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div>
+                <div class="modal-body">
                     <p>
                         CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript
                         code snippets.
@@ -89,24 +89,24 @@
                         coding skills, with an estimated 330,000 registered users and 14.16 million monthly visitors.
                     </p>
 
-                    <form>
+                    <form class="border-top my-3">
                         <div>
-                            <h5>Connect</h5>
+                            <h5 class=" modal-title">Connect</h5>
                         </div>
-                        <div>
-                            <label for="username">Username</label>
+                        <div class="row m-1">
+                            <label for="username" class="col-form-label mr-3 mb-2">Username</label>
                             <div>
-                                <input type="text" id="username" />
+                                <input type="text" class="form-control pr-5" id="username" />
                             </div>
                         </div>
-                        <div>
-                            <label for="passowrd">Password</label>
+                        <div class="row m-1">
+                            <label for="passowrd" class="col-form-label mr-3 mb-2">Password</label>
                             <div>
-                                <input type="password" id="passowrd" />
+                                <input type="password" class="form-control pr-5" id="passowrd" />
                             </div>
                         </div>
-                        <div>
-                            <button type="submit">Connect</button>
+                        <div class="d-flex justify-content-end">
+                            <button type="submit" class="btn btn-danger">Connect</button>
                         </div>
                     </form>
                 </div>
