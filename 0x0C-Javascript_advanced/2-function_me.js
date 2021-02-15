@@ -1,8 +1,8 @@
-function welcomeMessage(fullName) {
-    function closure() {
-        alert(`Welcome ${fullName}`);
-    }
-    return closure;
+function welcomeMessage (fullName) {
+  function closure () {
+    alert(`Welcome ${fullName}`);
+  }
+  return closure;
 }
 
 var guillaume = welcomeMessage('Guillaume');
